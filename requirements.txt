@@ -1,0 +1,22 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+motor>=3.6.0
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+python-dotenv==1.0.0
+requests==2.32.3
+# PyTorch with CUDA support for RTX 3050 (CUDA 11.8 or 12.1)
+# Install one of these based on your CUDA version:
+# For CUDA 11.8: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# For CUDA 12.1: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# For CPU only: pip install torch torchvision torchaudio
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+transformers>=4.36.2
+Pillow>=10.2.0
+numpy>=1.24.0
+huggingface_hub>=0.20.0
